@@ -301,7 +301,7 @@ client.write(parser.toJson(messageModel), idList);
 ```
 
 # Receive Message
-jetto receives all messages as byte array on background. All messages will be caught on the onMessage method of client.
+**jetto** receives all messages as byte array on background. All messages will be caught on the **onMessage** method of client.
 
 ```java
 import org.jetto.parser.Parser;
