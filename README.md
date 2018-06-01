@@ -60,7 +60,7 @@ public class MainActivity implements ClientListener {
     }
 
     @Override
-    public void onMessage(String message, String id) {
+    public void onMessage(String message) {
         
     }
 
@@ -75,7 +75,7 @@ public class MainActivity implements ClientListener {
     }
 
     @Override
-    public void onError(String message, String id) {
+    public void onError(String message) {
         
     }
 }
