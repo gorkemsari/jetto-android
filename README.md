@@ -59,24 +59,29 @@ public class MainActivity implements ClientListener {
         setContentView(R.layout.activity_main);
     }
 
+    //message: server message
     @Override
     public void onMessage(String message) {
-        
+        //messages from server
     }
 
+    //id: client id
     @Override
     public void onStart(String id) {
-        
+        //connected to server and secure communication is started
+        //an id is produced for client
     }
 
+    //id: client id
     @Override
     public void onStop(String id) {
-        
+        //disconnected
     }
 
+    //message: error message
     @Override
     public void onError(String message) {
-        
+        //some error occured during communication
     }
 }
 ```
